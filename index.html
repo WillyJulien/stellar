@@ -19,12 +19,19 @@
             <p>Just another free,fully responsive site template</br>
                 built by @ajlkn for HTML5 UP.</p>
         </header>
-        <nav>
-            <ul>
-                <li>🚧 </li>
-                <li>🚧 </li>
-                <li>🚧 </li>
-                <li>🚧 </li>
+        <nav class="navbar">
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="#intro" class="active">Introduction</a></li>
+                    <li><a href="#magna" class="">First Section</a></li>
+                    <li><a href="#ipsum">Second Section</a></li>
+                    <li><a href="#footer">Get Started</a></li>
+                </div>
             </ul>
         </nav>
         <div id="main">
@@ -115,7 +122,7 @@
                 scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.
             </p>
         </div>
-        <footer>
+        <footer id="footer">
             <section class="section_footer">
                 <div class="footer_text">
                     <h2>Aliquam sed mauris</h2>
